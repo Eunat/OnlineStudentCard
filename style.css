@@ -1,0 +1,93 @@
+#canvas {
+  font-size: 16px;
+  background-color: black;
+  background-image: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: bold;
+  color: antiquewhite;
+  font-size: 3rem;
+  font-family: "Julius Sans One", sans-serif;
+  line-height: 1;
+}
+
+h2 {
+  font-weight: bolder;
+  font-style: bold;
+  color: antiquewhite;
+  font-size: 2rem;
+  font-family: "Julius Sans One", sans-serif;
+  line-height: 3;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: antiquewhite;
+  font-family: "Julius Sans One", sans-serif;
+  line-height: 2;
+}
+
+p {
+  font-size: rem;
+  color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+section {
+  background-color: black;
+  font-family: "Julius Sans One", sans-serif;
+  */border: 25px rgba(116, 164, 236, 1);
+  border-radius: 25px;
+  margin: 20px 40px 20px 40px;
+  padding: 20px;
+  line-height: 1.5;
+}
+.red_section_important {
+  color: red;
+}
+.green_section {
+  color: green;
+}
+.very_bold {
+  font-weight: 80px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px;
+  margin: 0 40px 0 40px;
+}
+
+#myProfilPic {
+  width: 15vw;
+  align-self: right;
+  border-radius: 50%;
+}
+
+#main_section {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  color: antiquewhite;
+  list-style-type: none;
+}
+
+#footer {
+  display: flex;
+  color: antiquewhite;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
